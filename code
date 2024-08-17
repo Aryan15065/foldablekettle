@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portable Kettle - E-Commerce</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        #product-description {
+            padding: 20px;
+            background-color: #fff;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        #product-description h2 {
+            color: #333;
+        }
+        #product-description p {
+            font-size: 1.2em;
+            line-height: 1.6em;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 30%;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .video-section {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .video-section video {
+            width: 80%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        #contact-info {
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            margin: 20px 0;
+            text-align: center;
+            border-radius: 8px;
+        }
+        #contact-info h2 {
+            margin-top: 0;
+        }
+        #contact-info p {
+            font-size: 1.1em;
+        }
+        footer {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portable Kettle</h1>
+    </header>
+
+    <div class="container">
+        <section id="product-description">
+            <h2>Introducing the Portable Kettle</h2>
+            <p>Experience the convenience of boiling water anytime, anywhere with our state-of-the-art Portable Kettle. 
+               Designed for modern-day travelers, outdoor enthusiasts, and busy professionals, this compact and lightweight 
+               kettle ensures you never miss out on your hot beverages. With its fast-boiling technology, ergonomic design, 
+               and safety features, our Portable Kettle is your perfect companion for life on the go.</p>
+        </section>
+
+        <section class="gallery">
+            <img src="image1.jpg" alt="Portable Kettle Image 1">
+            <img src="image2.jpg" alt="Portable Kettle Image 2">
+            <img src="image3.jpg" alt="Portable Kettle Image 3">
+        </section>
+
+        <section class="video-section">
+            <h2>Watch the Portable Kettle in Action</h2>
+            <video controls>
+                <source src="kettle-demo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section id="contact-info">
+            <h2>Contact Us</h2>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: contact@portablekettle.com</p>
+            <p>Address: 123 Kettle Lane, Hotwater City, 45678</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Portable Kettle. All rights reserved.</p>
+    </footer>
+</body>
+</html>
